@@ -7,14 +7,14 @@
   "main": "index.js",
   "scripts": {
     "check": "node ./build/index.js",
-    "build": "./node_modules/typescript/bin/tsc"
+    "build": "tsc"
   },
   "dependencies": {
-    "chalk": "^4.1.1",
+    "chalk": "^4.1.2",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "typescript": "^4.3.5",
-    "@types/node": "^16.4.6"
+    "@types/node": "^16.4.13"
   }
 }
