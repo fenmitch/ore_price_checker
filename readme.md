@@ -1,19 +1,19 @@
-# Ore price checker ⛏️
+# EVE Online Highsec ore price checker
 
-[![Publish container](https://github.com/mitchfen/ore_price_checker/actions/workflows/publishContainer.yaml/badge.svg)](https://github.com/mitchfen/ore_price_checker/actions/workflows/publishContainer.yaml)  
-### Determines the most profitable HighSec ore to mine in EVE online using the [EVEMarketer](https://evemarketer.com/) API.
+Determines the most profitable HighSec ore to mine in EVE online using the [EVEMarketer](https://evemarketer.com/) API.
 
 <img src="./screenshot.png" width="100%"/>
 
-## How to run it:
+## How to run the app:
+Pick the region by specifying the trade hub.  
+Subsitute `jita` with `amarr`, `hek`, `dodixie`, or `rens`.
 ```bash
-# Pick the region by specifying the trade hub.
-# Subsitute `jita` with `amarr`, `hek`, `dodixie`, or `rens`.
-
 # Using docker
 docker run -it --rm ghcr.io/mitchfen/ore_price_checker:latest jita
+```
 
+```bash
 # Or using npm
-npm ci
+npm install
 npm run check jita
 ```
