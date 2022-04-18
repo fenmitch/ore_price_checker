@@ -9,7 +9,7 @@ Pick the region by specifying the trade hub.
 Subsitute `jita` with `amarr`, `hek`, `dodixie`, or `rens`.
 ```bash
 # Using docker
-docker run -it --rm ghcr.io/mitchfen/ore_price_checker:latest jita
+docker run -it --rm ghcr.io/mitchfen/eve_ore_price_checker:latest jita
 ```
 
 ```bash
