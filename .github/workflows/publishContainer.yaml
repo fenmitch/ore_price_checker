@@ -5,6 +5,15 @@ on:
     branches:
       - "main"
 
+# Set permissions of GITHUB_TOKEN for dependabot
+permissions:
+  contents: write
+  pull-requests: write
+  packages: write
+
+concurrency:
+  group: ${{ github.workflow }}
+
 jobs:
   publishContainer:
     runs-on: ubuntu-latest
