@@ -15,5 +15,6 @@ docker run -it --rm ghcr.io/mitchfen/eve_ore_price_checker:latest jita
 ```bash
 # Or using npm
 npm install
+npm run build
 npm run check jita
 ```
