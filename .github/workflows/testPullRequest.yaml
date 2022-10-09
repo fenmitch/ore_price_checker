@@ -1,4 +1,4 @@
-name: Simple test
+name: Test pull request
 
 on:
   pull_request:
