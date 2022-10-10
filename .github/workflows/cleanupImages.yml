@@ -19,4 +19,4 @@ jobs:
       - run: python ./cleanupTaglessImages.py
         env:
           GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
-          containerName: "highsec_ore_price_checker"
+          containerName: "highsec-ore-price-checker"
