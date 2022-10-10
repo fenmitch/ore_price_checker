@@ -4,7 +4,7 @@ import os
 token = os.environ['GITHUB_TOKEN']
 containerName = os.environ['containerName']
 
-cmd = "curl -s -H \"Accept: application/vnd.github.v3+json\" -H \"Authorization: token " + token + "\" https://api.github.com/user/packages/container/mitchfen.xyz/versions > temp.json"
+cmd = "curl -s -H \"Accept: application/vnd.github.v3+json\" -H \"Authorization: token " + token + "\" https://api.github.com/user/packages/container/" + containerName + "/versions > temp.json"
 os.system(cmd)
 
 with open('temp.json') as f:
