@@ -4,13 +4,14 @@
   "author": "Mitchell Fenner",
   "license": "MIT",
   "description": "Determine the most profitable ore to mine in EVE online.",
-  "main": "index.js",
+  "exports": "./index.js",
+  "type": "module",
   "scripts": {
     "check": "node ./build/index.js",
     "build": "tsc"
   },
   "dependencies": {
-    "chalk": "4.1.2",
+    "chalk": "5.1.0",
     "node-fetch": "3.2.10"
   },
   "devDependencies": {
