@@ -6,7 +6,7 @@ This console app queries the [EVEMarketer](https://evemarketer.com/) API to dete
 It also calculates whether compressing the ore will increase profits, and by how much.
 
 ## Example: 
-<img src="./screenshot.png" width="100%"/>
+<img src="./demo.gif" width="100%"/>
 
 ## How to run the app:
 Pick the region by specifying tone of the four major trade hubs.  

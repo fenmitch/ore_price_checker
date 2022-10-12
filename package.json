@@ -8,7 +8,8 @@
   "type": "module",
   "scripts": {
     "check": "node ./build/index.js",
-    "build": "tsc"
+    "build": "tsc",
+    "buildAndCheck": "tsc && node ./build/index.js"
   },
   "dependencies": {
     "chalk": "5.1.0",
