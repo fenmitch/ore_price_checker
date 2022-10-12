@@ -1,8 +1,7 @@
-const fetchURL = require("node-fetch");
-const chalk = require("chalk");
+import fetchURL from "node-fetch"
+import chalk from "chalk"
 
-import { argv } from "process";
-import { dataClass } from "./dataClass";
+import { dataClass } from "./dataClass.js";
 let ores = dataClass.ores;
 
 // Parse the price data and store in ores object
