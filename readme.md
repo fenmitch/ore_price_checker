@@ -1,5 +1,4 @@
 [![Publish container](https://github.com/mitchfen/eve_ore_price_checker/actions/workflows/publishContainer.yaml/badge.svg)](https://github.com/mitchfen/eve_ore_price_checker/actions/workflows/publishContainer.yaml)
-[![Cleanup tagless images](https://github.com/mitchfen/eve_ore_price_checker/actions/workflows/cleanupImages.yml/badge.svg)](https://github.com/mitchfen/eve_ore_price_checker/actions/workflows/cleanupImages.yml)
 # Highsec ore price checker
 
 This console app queries the [EVEMarketer](https://evemarketer.com/) API to determine the most profitable HighSec ore to mine in EVE online.  
@@ -15,8 +14,7 @@ The default is `jita`, but you can also specify `amarr`, `hek`, `dodixie`, or `r
 ```bash
 # Run using npm
 npm install
-npm run build
-npm run check jita
+npm run buildAndCheck jita
 ```
 
 ```bash

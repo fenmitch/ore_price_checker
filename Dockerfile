@@ -11,6 +11,6 @@ WORKDIR /app
 COPY --from=build /app/build /app/build
 ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json .
-RUN npm install -g npm@latest && npm install --production
+RUN npm install --production
 ENTRYPOINT ["npm", "run", "check"]
 CMD ["jita"]
