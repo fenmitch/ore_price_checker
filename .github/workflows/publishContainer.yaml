@@ -41,5 +41,5 @@ jobs:
       - uses: mitchfen/cleanup-untagged-container-images@main
         with:
           username: 'mitchfen'
-          container-name: 'highsec-ore-price-checker'
+          container-name: 'highsec_ore_price_checker'
           token: ${{ secrets.GHCR_TOKEN }}
